@@ -38,7 +38,11 @@ public class CustomerService {
      */
     public boolean createCustomer(Map<String,Object> fieldMap){
         //TODO
-        return DatabaseHelper.insertEntity(Customer.class,fieldMap);
+        boolean result =  DatabaseHelper.insertEntity(Customer.class,fieldMap);
+        /*if (result){
+            UploadHelper.uploadFile("/tmp/upload",fileParam);
+        }*/
+        return result;
     }
 
     /**
