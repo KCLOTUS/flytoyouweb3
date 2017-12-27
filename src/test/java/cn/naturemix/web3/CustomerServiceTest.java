@@ -1,6 +1,5 @@
 package cn.naturemix.web3;
 
-
 import cn.naturemix.framework.helper.DatabaseHelper;
 import cn.naturemix.web3.model.Customer;
 import cn.naturemix.web3.service.CustomerService;
