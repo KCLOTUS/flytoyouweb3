@@ -24,7 +24,7 @@ public class CustomerServiceTest {
 
     @Before
     public void init() throws Exception{
-        //TODO 初始化数据库
+        //初始化数据库
         DatabaseHelper.executeSqlFile("sql/customer_init.sql");
     }
 
